@@ -39,7 +39,7 @@ specifiers:
     position: meta
     version: ">= 5.1"
     comment: |
-      Can be applied to BlueprintImplementableEvent or BlueprintNative functions which have no return value to cause 
+      Can be applied to BlueprintImplementableEvent or BlueprintNativeEvent functions which have no return value to cause 
       the editor to create a function instead of an event when using the Override feature of the Blueprint editor. 
       Despite the name, this does not prevent you from using "Convert function to event" after creating the override.
     samples:
