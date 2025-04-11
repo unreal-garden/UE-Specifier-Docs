@@ -50,7 +50,7 @@ specifiers:
     type: bool
     position: meta
     comment: |
-      Works exclusively with `TSubclassOf`and TSoftClassPtr. By default, `TSubclassOf<T>`/TSoftClassPtr<T> will allow abstract choosing classes.
+      Works exclusively with `TSubclassOf`and `TSoftClassPtr`. By default, `TSubclassOf<T>`/`TSoftClassPtr<T>` will allow abstract choosing classes.
     samples:
       - |
         UFUNCTION(BlueprintCallable, Category = "Composure", meta = (DeterminesOutputType = "OutputType"))
