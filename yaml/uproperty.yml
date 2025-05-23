@@ -366,6 +366,8 @@ specifiers:
       The simplest way is simply using another `bool` property, but as of 4.23 more complex statements are supported.
 
       It is worth noting that `EditCondition` also changes the appearance of properties inside Blueprint logic Make Struct nodes.
+
+      Note that any variable used in the `EditCondition` needs to also be a `UPROPERTY`. 
     position: meta
     samples: 
     - |
