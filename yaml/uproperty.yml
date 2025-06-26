@@ -353,6 +353,22 @@ specifiers:
     subgroup: Display
     type: bool
     position: meta
+  - name: InlineCategoryProperty
+    group: Editor
+    subgroup: Display
+    type: bool
+    position: meta
+    utility: 1
+    comment: |
+      Causes the property to be displayed in the header for its category instead of as a standalone property line.
+
+      Only works for bool and enum properties.
+    samples: |
+      UPROPERTY(EditAnywhere, Category = "My Category", meta = (InlineCategoryProperty))
+      bool bTestBool = true;
+      UPROPERTY(EditAnywhere, Category = "My Category")
+      int AnotherProperty;
+    images: [ /uproperty/inlinecategoryproperty.png ]
   - name: EditCondition
     group: Editor
     subgroup: Display
