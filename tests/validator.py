@@ -87,7 +87,6 @@ class SpecifierValidatorBase:
 			{ 'name': 'group', 'required': True, 'datatype': str  },
 			{ 'name': 'position', 'required': True, 'datatype': str },
 			{ 'name': 'type', 'required': True, 'datatype': str },
-			{ 'name': 'group' , 'required': True, 'datatype': str }
 			{ 'name': 'subgroup', 'required': False, 'datatype': str },
 			{ 'name': 'comment', 'required': False, 'datatype': str },
 			{ 'name': 'samples', 'required': False, 'datatype': list[str] },
