@@ -778,7 +778,7 @@ specifiers:
     type: flag
     utility: 2
     position: meta
-    comment: Only used in one place in the engine, on `UUserWidget`.
+    comment: Only applicable to Widget Blueprints (i.e. classes inheriting from UUserWidget). Instructs UMG that neither the native class with this specifier, nor any of its parents, implement NativeTick. This helps UMG's "Tick Prediction" optimize by identifying widgets that never need to be ticked.
     samples:
       - |
         UCLASS(Abstract, editinlinenew, BlueprintType, Blueprintable, meta=( DontUseGenericSpawnObject="True", DisableNativeTick) )
