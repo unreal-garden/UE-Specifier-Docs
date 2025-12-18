@@ -397,6 +397,10 @@ specifiers:
     type-comment: name of enum parameter
     utility: 2
     position: meta
+    comment: |
+      Note that "ReturnValue" is a special string used to refer to the return value of the function.
+
+      If this is applied to a const method, you must also apply `BlueprintPure=false` because Unreal will make const methods pure, and pure methods cannot have exec pins.
     samples:
       - |
         UENUM()
